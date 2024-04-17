@@ -3,5 +3,4 @@ const DatosR=require("./Datos.routes");
 const router = routerx();
 
 router.use("/datos",DatosR);
-
-export default router;
+module.exports = router;
