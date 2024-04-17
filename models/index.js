@@ -1,4 +1,5 @@
+
 const Datos=require("./Datos.models");
-export default{
+module.exports={
     Datos
 }

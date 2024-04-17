@@ -1,5 +1,5 @@
 const Models=require("../models");
-export default {
+module.exports= {
 
   //Endpoint Enviar Datos
   postDatos: async (req, res, next) => {
