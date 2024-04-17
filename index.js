@@ -1,9 +1,12 @@
 
-import express from "express";
-import cors from "cors";
-import routes from "./routes";
-import mongoose from "mongoose";
 
+const express=require("express");
+
+const cors=require("cors");
+
+const routes=require("./routes");
+
+const mongoose=require("mongoose");
 
 
 const app = express();

@@ -1,5 +1,4 @@
-import Datos from "./Datos.models";
-
+const Datos=require("./Datos.models");
 export default{
     Datos
 }

@@ -1,5 +1,7 @@
-import routerx from "express-promise-router";
-import Datosctr from "../controllers/Datos.controller";
+
+const routerx=require("express-promise-router");
+
+const Datosctr=require("../controllers/Datos.controller");
 
 const router = routerx();
 

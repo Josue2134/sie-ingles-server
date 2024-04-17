@@ -1,5 +1,4 @@
-import Models from "../models";
-
+const Models=require("../models");
 export default {
 
   //Endpoint Enviar Datos
