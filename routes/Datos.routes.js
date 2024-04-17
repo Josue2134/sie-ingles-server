@@ -12,4 +12,4 @@ router.patch("/actualizar/:id", Datosctr.putDatos);
 router.delete("/delete/:id",Datosctr.delDatos);
 
 
-export default router;
+module.exports = router;
