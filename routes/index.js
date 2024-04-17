@@ -1,6 +1,5 @@
-import routerx from "express-promise-router";
-import DatosR from "./Datos.routes";
-
+const routerx=require("express-promise-router");
+const DatosR=require("./Datos.routes");
 const router = routerx();
 
 router.use("/datos",DatosR);
